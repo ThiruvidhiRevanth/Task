@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devation Form</title>
+    <style>
+        body{
+            background-color:#EEEEEE;
+        }
+        div{
+            background-color: white;
+            border-radius: 10px;
+            width: 800px;
+            margin: auto;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        span{
+            color: red;
+        }
+        input[type="text"],input[type="email"],input[type="number"],
+        textarea{
+            border: none;
+            background-color:#EEEEEE ;
+            border-radius: 5px;
+            margin-left: 20px;
+            width: 200px;
+            height: 30px;
+        }
+        label{
+            margin-left: 10%;
+        }
+        input[type="checkbox"],
+        textarea{
+            margin-left: 8%;
+        }
+    
+    </style>
+</head>
+<body>
+    <form action="">
+    <div> <br>
+      <h2 style="height: 10px;">Devation Form</h2><br>
+      <div style="float: left;">
+        <label for="text1">First Name <span>*</span> </label><br>
+            <input type="text" id="text1" required>
+      </div>
+      <div style="height: 40%;width: 50%;margin-left: 40%;">
+        <label for="text2">Last Name <span>*</span> </label><br>
+            <input type="text" id="text2" required>
+      </div><br>
+      <div style="float: left;">
+        <label for="email">Email <span>*</span> </label><br>
+            <input type="email" id="email"required>
+      </div>
+      <div style="height: 40%;width: 50%;margin-left: 40%;">
+        <label for="Number">Phone <span>*</span> </label><br>
+            <input type="number" id="Number" >
+      </div>
+      <div>
+        <h4 style="margin-left: 5%;">Related Issues</h4>
+        <input type="checkbox" id="1">
+        <label1 for="1">Network</label1><br>
+        <input type="checkbox" id="2">
+        <label1 for="2">Security</label1><br>
+        <input type="checkbox" id="3">
+        <label1 for="3">Leaked Information</label1>        
+      </div>
+      <div>
+        <label  for="t1" style="margin-left: 5%;"><b>Indicate the characteristic, the requested deviation value, and the proper units:</b></label>
+        <textarea name="" id="t1" cols="800" rows="50"style="height: 200px;width: 700px;"></textarea>
+      </div>
+      <div>
+        <label  for="t2" style="margin-left: 5%;"><b>Reason for deviation</b></label>
+        <textarea name="" id="t2" cols="800" rows="50"style="height: 200px;width: 700px;"></textarea>
+      </div>
+      <div>
+        <label  for="t3" style="margin-left: 5%;"><b>Identify corrective action taken to prevent similar deviations in the future</b></label>
+        <textarea name="" id="t3" cols="800" rows="50"style="height: 200px;width: 700px;"></textarea>
+      </div>
+      <div>
+        <label  for="t4" style="margin-left: 5%;"><b>Identify preventative action necessary to prevent similar deviations in the future</b></label>
+        <textarea name="" id="t4" cols="800" rows="50"style="height: 200px;width: 700px;"></textarea>
+      </div>
+      <div>
+        <label  for="t5" style="margin-left: 5%;"><b>Other Reasons</b></label>
+        <textarea name="" id="t5" cols="800" rows="50"style="height: 200px;width: 700px;"></textarea>
+      </div><br>
+      
+       <input type="submit" style="color: white;background-color:black ;width:10%;border-radius: 5px;float:right;"><br><br>
+      
+      
+   </div>
+   </form>
+</body>
+</html>
